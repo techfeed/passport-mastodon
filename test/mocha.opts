@@ -1,0 +1,5 @@
+--colors
+--reporter spec
+--ui bdd
+--timeout 15000
+--require intelli-espower-loader

@@ -1,0 +1,33 @@
+{
+  "name": "passport-mastodon",
+  "version": "0.1.0",
+  "description": "passport matodon",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openwebtech/passport-mastodon.git"
+  },
+  "author": "openwebtech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/openwebtech/passport-mastodon/issues"
+  },
+  "homepage": "https://github.com/openwebtech/passport-mastodon#readme",
+  "directories": {
+    "test": "test/"
+  },
+  "dependencies": {
+    "mastodon-api": "^1.2.0",
+    "passport-oauth2": "^1.4.0",
+    "passport-strategy": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai-passport-strategy": "^1.0.0",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^3.2.0",
+    "power-assert": "^1.4.2"
+  }
+}
