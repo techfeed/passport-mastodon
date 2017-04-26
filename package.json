@@ -1,6 +1,6 @@
 {
   "name": "passport-mastodon",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "passport matodon",
   "main": "lib/index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openwebtech/passport-mastodon.git"
+    "url": "git+https://github.com/techfeed/passport-mastodon.git"
   },
   "author": "openwebtech",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/openwebtech/passport-mastodon/issues"
+    "url": "https://github.com/techfeed/passport-mastodon/issues"
   },
-  "homepage": "https://github.com/openwebtech/passport-mastodon#readme",
+  "homepage": "https://github.com/techfeed/passport-mastodon#readme",
   "directories": {
     "test": "test/"
   },
