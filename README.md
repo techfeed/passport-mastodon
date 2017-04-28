@@ -25,11 +25,13 @@ See: [Mastodon API overview - Apps](https://github.com/tootsuite/documentation/b
 
 ### Configure Strategy
 The Mastodom authentication strategy authenticates users using a Mastodon account and OAuth 2.0 tokens. The app ID and secret obtained when creating an application are supplied as options when creating the strategy. The strategy also requires a verify callback, which receives the access token and optional refresh token, as well as profile which contains the authenticated user's Mastodon profile. The verify callback must call cb providing a user to complete authentication.
+`domain` is require option which target mastodon instance's urls.
 
 ```
 passport.use(new MastodomStrategy({
     clientID: MASTODON_APP_ID,
     clientSecret: MASTODON_APP_SECRET,
+    domain: 'mastodon.social',
     callbackURL: "http://localhost:3000/auth/mastodon/callback"
   },
   function(accessToken, refreshToken, profile, cb) {
